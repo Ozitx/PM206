@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>¿Qué aprendiste?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="bg"></div>
+    <div class="content top">
+
+      <div class="screen-label">¿Qué aprendiste?</div>
+
+      <div class="question-text">
+        ¿De qué trata el objetivo general?
+      </div>
+
+      <div class="options" id="opts-Nivel3-p2">
+        <button class="option-btn" onclick="answer(this, false, 'Nivel3-p2', 'Nivel4-info')">
+          A) Desarrollar aplicaciones móviles
+        </button>
+        <button class="option-btn" onclick="answer(this, true, 'Nivel3-p2', 'Nivel4-info')">
+          B) Aprender las herramientas y habilidades necesarias para poder desarrollar aplicaciones móviles
+        </button>
+        <button class="option-btn" onclick="answer(this, false, 'Nivel3-p2', 'Nivel4-info')">
+          C) Aprender un nuevo lenguaje de programación
+        </button>
+      </div>
+
+      <div class="action-row" id="action-Nivel3-p2"></div>
+
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

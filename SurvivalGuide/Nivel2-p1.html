@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>¿Qué aprendiste?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="bg"></div>
+    <div class="content top">
+
+      <div class="screen-label">¿Qué aprendiste?</div>
+
+      <div class="question-text">
+        ¿Qué porcentaje de evaluación tiene la evidencia de conocimiento en el segundo parcial?
+      </div>
+
+      <div class="options" id="opts-Nivel2-p1">
+        <button class="option-btn" onclick="answer(this, false, 'Nivel2-p1', 'Nivel2-p2')">
+          A) 10%
+        </button>
+        <button class="option-btn" onclick="answer(this, false, 'Nivel2-p1', 'Nivel2-p2')">
+          B) 30%
+        </button>
+        <button class="option-btn" onclick="answer(this, true, 'Nivel2-p1', 'Nivel2-p2')">
+          C) 40%
+        </button>
+      </div>
+
+      <div class="action-row" id="action-Nivel2-p1"></div>
+
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

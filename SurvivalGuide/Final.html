@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>¡¡¡Gracias por jugar!!!</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+
+    .thanks-title {
+      color: var(--purple);
+      font-family: 'Press Start 2P', monospace;
+      font-size: 13px;
+      text-align: center;
+      line-height: 1.8;
+      text-shadow: 0 0 16px var(--purple);
+    }
+
+    .thanks-logo {
+      width: 220px;
+      filter: drop-shadow(0 0 24px rgba(155, 48, 255, 0.8));
+    }
+
+    .content {
+      gap: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <div class="bg"></div>
+    <div class="content">
+
+      <div class="thanks-title">¡¡¡Gracias<br>por jugar!!!</div>
+
+      <img class="thanks-logo" src="elementos/logo.png" alt="Survival Guide">
+
+      <button class="btn" onclick="restartGame()">
+        Volver al inicio
+      </button>
+
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

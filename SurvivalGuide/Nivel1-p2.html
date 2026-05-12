@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>¿Qué aprendiste?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="bg"></div>
+    <div class="content top">
+
+      <div class="screen-label">¿Qué aprendiste?</div>
+
+      <div class="question-text">
+        Si no se cumple con el 80% de asistencia ¿Qué tipo de examen no se tendrá derecho a presentar?
+      </div>
+
+      <div class="options" id="opts-Nivel1-p2">
+        <button class="option-btn" onclick="answer(this, true, 'Nivel1-p2', 'Nivel2-info')">
+          A) Examen parcial
+        </button>
+        <button class="option-btn" onclick="answer(this, false, 'Nivel1-p2', 'Nivel2-info')">
+          B) Examen diagnóstico
+        </button>
+        <button class="option-btn" onclick="answer(this, false, 'Nivel1-p2', 'Nivel2-info')">
+          C) Examen final
+        </button>
+      </div>
+
+      <div class="action-row" id="action-Nivel1-p2"></div>
+
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

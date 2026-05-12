@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Checkbox de compromiso</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="bg"></div>
+    <div class="content">
+
+      <div class="level-header">Checkbox de compromiso</div>
+
+      <div class="card">
+        <p style="text-align: center; font-size: 15px; line-height: 1.7;">
+          ¿Estás de acuerdo con los criterios de evaluación anteriormente estudiados?
+        </p>
+        <label class="checkbox-label">
+          <input type="checkbox" id="agree-check" onchange="toggleFinalize()">
+          Estoy de acuerdo
+        </label>
+      </div>
+
+      <div class="action-row">
+        <button class="btn" id="finalize-btn" disabled onclick="window.location.href='Final.html'">
+          Finalizar
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>¿Qué aprendiste?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="bg"></div>
+    <div class="content top">
+
+      <div class="screen-label">¿Qué aprendiste?</div>
+
+      <div class="question-text">
+        ¿Cuándo es el examen del segundo parcial?
+      </div>
+
+      <div class="options" id="opts-Nivel4-p2">
+        <button class="option-btn" onclick="answer(this, false, 'Nivel4-p2', 'Checkbox')">
+          A) 05/07/2026
+        </button>
+        <button class="option-btn" onclick="answer(this, false, 'Nivel4-p2', 'Checkbox')">
+          B) 01/07/2026
+        </button>
+        <button class="option-btn" onclick="answer(this, true, 'Nivel4-p2', 'Checkbox')">
+          C) 07/07/2026
+        </button>
+      </div>
+
+      <div class="action-row" id="action-Nivel4-p2"></div>
+
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

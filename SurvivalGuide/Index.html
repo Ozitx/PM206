@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Survival Guide</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+
+    .logo-img {
+      width: 260px;
+      filter: drop-shadow(0 0 20px rgba(155, 48, 255, 0.6));
+      animation: floatLogo 3s ease-in-out infinite;
+    }
+
+    @keyframes floatLogo {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-10px); }
+    }
+
+    .author {
+      color: #cccccc;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+
+    .content {
+      justify-content: space-between;
+      padding-top: 60px;
+      padding-bottom: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <div class="bg"></div>
+    <div class="content">
+
+      <!-- Logo -->
+      <img class="logo-img" src="elementos/logo.png" alt="Survival Guide">
+
+      <!-- iniciar -->
+      <button class="btn" onclick="window.location.href='Nivel1-info.html'">
+        Iniciar
+      </button>
+
+      <!-- io -->
+      <p class="author">Cynthia Reséndiz</p>
+
+    </div>
+  </div>
+</body>
+</html>
