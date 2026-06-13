@@ -11,7 +11,22 @@ export default function App() {
     <View style={styles.container}>
       
       <Text>---------- Mi Perfil :3 ----------</Text>
-      <Perfil></Perfil>
+      <Perfil
+      nombre = "Cynthia Reséndiz"
+      carrera= "Sistemas"
+      materia="Programación Móvil"
+      cuatri="9" >
+      </Perfil>
+
+      <Text>---------------------------------</Text>
+      <Text>---------------------------------</Text>
+
+      <Perfil
+      nombre = "Megamente"
+      carrera= "Evil"
+      materia="Super villano"
+      cuatri="10" >
+      </Perfil>
 
   {/* <Text>---------Componentes nativos-----------</Text>
       <Image source={require('./assets/wave.png')}/>
@@ -19,8 +34,9 @@ export default function App() {
       <Text>-------------Componente-------------</Text>
       <Saludo/>
       <Text>-----------Compomente compuesto-----------</Text>
-      <Saludo2></Saludo2>
-      <StatusBar style="auto" /> */}
+      <Saludo2></Saludo2>*/}
+
+      <StatusBar style="auto" /> 
 
     </View>
   );
