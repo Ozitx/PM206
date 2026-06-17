@@ -10,31 +10,29 @@ export default function App() {
   return (
     <View style={styles.container}>
       
-      <Text>---------- Mi Perfil :3 ----------</Text>
       <Perfil
+      estiloE={styles.tarjetaRoja}
       nombre = "Cynthia Reséndiz"
       carrera= "Sistemas"
       materia="Programación Móvil"
       cuatri="9" >
       </Perfil>
 
-      <Text>---------------------------------</Text>
-      <Text>---------------------------------</Text>
-
       <Perfil
+      estiloE={styles.tarjetaVerde}
       nombre = "Megamente"
       carrera= "Evil"
       materia="Super villano"
       cuatri="10" >
       </Perfil>
 
-  {/* <Text>---------Componentes nativos-----------</Text>
-      <Image source={require('./assets/wave.png')}/>
-      <Text> Hola mundo RN!</Text>
-      <Text>-------------Componente-------------</Text>
-      <Saludo/>
-      <Text>-----------Compomente compuesto-----------</Text>
-      <Saludo2></Saludo2>*/}
+      <Perfil
+      estiloE={styles.tarjetaRoja}
+      nombre = "Ozitx"
+      carrera= "Sistemas"
+      materia="Programación Móvil"
+      cuatri="9" >
+      </Perfil>      
 
       <StatusBar style="auto" /> 
 
@@ -48,6 +46,10 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
+    flexDirection:'row'
   },
+
+  tarjetaRoja:{ backgroundColor:'#FF6B6B'},
+  tarjetaVerde:{ backgroundColor:'#6BCB77'},
 });
